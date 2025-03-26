@@ -37,12 +37,12 @@
   color: #495057;
 }
 
-.h-header {
+/* .h-header {
   height: var(--heigh-header);
-}
+} */
 
 /* ----------------------------------- MAIN -----------------------------------*/
 
-.main-content {
+/* .main-content {
   height: calc(100vh - var(--heigh-header));
-}
+} */
