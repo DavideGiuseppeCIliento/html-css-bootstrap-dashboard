@@ -80,19 +80,179 @@
       <!---------------------------  MAIN --------------------------->
       <main>
         <div class="container">
-          <div class="row d-flex align-items-center">
+          <div class="row d-flex align-items-center my-2 gy-2">
             <!-------------- CONTENT PRINCIPAL -------------->
-            <div id="content" class="col-12 col-lg-8 db-color3">
+            <div id="content" class="col-12 col-lg-8 gy-2">
               <!-- TITLE -->
               <div id="title " class="row row-cols-2 d-flex justify-content-between">
-                <div class=""><h4>Catalogo Libri</h4></div>
-                <div class="d-flex justify-content-end"><button type="button" class="btn btn-primary">Primary</button></div>
+                <div class=""><h5>Catalogo Libri</h5></div>
+                <div class="d-flex justify-content-end"><button type="button" class="btn btn-primary">Aggiungi Libro</button></div>
               </div>
               <!-- TABLE -->
-              <div id="table"></div>
+              <div class="row mt-2">
+                <div id="table" class="col-12">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <td class="cell-titolo">Titolo</td>
+                        <td class="d-none d-md-table-cell">Data Prestito</td>
+                        <td>Stato</td>
+                        <td>Azioni</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>I Pilastri della Terra</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge rounded-pill text-bg-success">Disponibile</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>I Promessi Sposi</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge rounded-pill text-bg-success">Disponibile</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>I Il Signore degli anelli</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge rounded-pill text-bg-warning">In Prestito</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>I Pilastri della Terra</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge rounded-pill text-bg-success">Disponibile</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Harry Potter</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge rounded-pill text-bg-danger">Non Disponibile</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Il Codice Da Vinci</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge rounded-pill text-bg-warning">In Prestito</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>Shining</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge rounded-pill text-bg-success">Disponibile</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>La Divina Commedia</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge rounded-pill text-bg-success">Disponibile</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>Il Trono di Spade</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge rounded-pill text-bg-success">Disponibile</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>Il Mondo di Sofia</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge rounded-pill text-bg-success">Disponibile</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td class="cell-titolo">Le Cronache di Narnia: Il leone, la strega e l'armadio</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge rounded-pill text-bg-warning">In Presito</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>Il Piccolo Principe</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge rounded-pill text-bg-danger">Non Disponibile</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>La Storia Infinita</td>
+                        <td class="d-none d-md-table-cell">-</td>
+                        <td><span class="badge rounded-pill text-bg-success">Disponibile</span></td>
+                        <td>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-pen"></i></button>
+                          <button type="button" class="btn btn-outline-secondary" disabled><i class="fa-solid fa-trash"></i></button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
             <!-------------- SIDEBAR -------------->
-            <div id="sidebar" class="col-12 col-lg-4 db-color1">sidebar</div>
+            <div id="sidebar" class="col-12 col-lg-4 d-flex flex-column justify-content-start">
+              <div class="row gy-3">
+                <div class="col-12">
+                  <div class="card">
+                    <div class="card-header"><h4>Todo</h4></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="card">
+                    <div class="card-header"><h4>Todo</h4></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12"></div>
+              </div>
+            </div>
           </div>
         </div>
       </main>

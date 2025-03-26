@@ -25,11 +25,11 @@
 
 /* ----------------------------------- LAYOUT -----------------------------------*/
 
-.wrapper {
+/* .wrapper {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-}
+} */
 
 /* ----------------------------------- HEADER -----------------------------------*/
 
@@ -46,3 +46,10 @@
 /* .main-content {
   height: calc(100vh - var(--heigh-header));
 } */
+
+.cell-titolo {
+  max-width: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
