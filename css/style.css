@@ -25,3 +25,7 @@
 .placeholder-dark::placeholder {
   color: #495057;
 }
+
+.h-header {
+  height: 70px;
+}

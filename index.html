@@ -34,9 +34,12 @@
     <div class="wrapper">
       <!------------------------- HEADER ------------------------->
       <header>
+        <!-------------- NAVBAR -------------->
         <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-          <div class="container-fluid">
-            <a class="navbar-brand col-2 col-md-1" href="#"><img src="./assets/img/duck.png" alt="Logo" class="img-fluid w-md-50" /></a>
+          <div class="container-fluid h-header">
+            <!-- LOGO -->
+            <a class="navbar-brand col-2 col-md-1 px-3" href="#"><img src="./assets/img/duck.png" alt="Logo" class="img-fluid" /></a>
+            <!-- TOGGLE -->
             <button
               class="navbar-toggler"
               type="button"
@@ -48,6 +51,7 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- MENU -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -63,6 +67,7 @@
                   <a class="nav-link">Help</a>
                 </li>
               </ul>
+              <!-- SEARCH -->
               <form class="d-flex" role="search">
                 <input class="form-control me-2 bg-light text-dark placeholder-dark" type="search" placeholder="Cerca" aria-label="Cerca" />
                 <button class="btn btn-outline-light" type="submit">Cerca</button>
