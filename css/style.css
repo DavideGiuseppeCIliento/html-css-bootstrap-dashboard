@@ -21,3 +21,7 @@
 .db-color3 {
   background-color: blue;
 }
+
+.placeholder-dark::placeholder {
+  color: #495057;
+}
