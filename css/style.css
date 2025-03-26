@@ -6,6 +6,7 @@
   --background-body: #f6f5f3;
   --font-primary: "Montserrat", "Helvetica Neue", sans-serif;
   --font-secondary: "Nerko One", cursive;
+  --heigh-header: 100px;
 }
 
 /* ----------------------------------- DEBUG -----------------------------------*/
@@ -22,10 +23,26 @@
   background-color: blue;
 }
 
+/* ----------------------------------- LAYOUT -----------------------------------*/
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ----------------------------------- HEADER -----------------------------------*/
+
 .placeholder-dark::placeholder {
   color: #495057;
 }
 
 .h-header {
-  height: 70px;
+  height: var(--heigh-header);
+}
+
+/* ----------------------------------- MAIN -----------------------------------*/
+
+.main-content {
+  height: calc(100vh - var(--heigh-header));
 }
