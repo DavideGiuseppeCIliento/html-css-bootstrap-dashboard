@@ -7,7 +7,6 @@
   --font-primary: "Montserrat", "Helvetica Neue", sans-serif;
   --font-secondary: "Nerko One", cursive;
   --heigh-header: 100px;
-  --bs-modal-width: 654px;
 }
 
 /* ----------------------------------- DEBUG -----------------------------------*/
@@ -57,4 +56,10 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* ----------------------------------- MODAL -----------------------------------*/
+
+.w-modal-book {
+  max-width: 600px;
 }
